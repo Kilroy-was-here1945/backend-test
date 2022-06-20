@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+
+
+    <button onclick="axios.get('http://localhost:4000/api/compliment/').then(function(comp){alert(comp.data)})">get a compliment2</button>
+    <button onclick="axios.get('http://localhost:4000/api/helloThere/').then(function(comp){alert(comp.data)})">Why did the last button need a controller lol</button>
+    <button onclick="axios.get('http://localhost:4000/api/really/').then(function(comp){alert(comp.data)})">it is soooooo much easier using this button format</button>
+    <button onclick="axios.get('http://localhost:4000/api/what/').then(function(comp){alert(comp.data)})">delete the buttons below</button>
+
+
+    <div id="new">
+      </div>
+
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <!-- <script src="index.js"></script> -->
+    
+  </body>
+</html>
